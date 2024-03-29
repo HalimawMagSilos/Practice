@@ -21,7 +21,9 @@ body{
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
+.btn-show:hover{
+  cursor:pointer;
+}
 .btn-show:after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
@@ -101,4 +103,11 @@ body{
     height: 86px;
     line-height: 88px;
   }
+}
+
+#display-area{
+  font-size:50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#FF013C;
+  margin-top:20%;
 }
